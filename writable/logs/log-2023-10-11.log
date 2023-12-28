@@ -1,0 +1,863 @@
+ERROR - 2023-10-11 01:06:33 --> mysqli_sql_exception: Table 'yasim_marelan.mahasiswa' doesn't exist in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 01:06:33 --> Table 'yasim_marelan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:07:31 --> mysqli_sql_exception: Table 'yasim_marelan.mahasiswa' doesn't exist in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 01:07:31 --> Table 'yasim_marelan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:07:41 --> mysqli_sql_exception: Table 'yasim_marelan.mahasiswa' doesn't exist in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 01:07:41 --> Table 'yasim_marelan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:08:27 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'root' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'root', 3306, '', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database '****' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#7 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-11 01:08:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database '****'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:08:39 --> mysqli_sql_exception: Table 'akademik_db.mahasiswa' doesn't exist in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 01:08:39 --> Table 'akademik_db.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:08:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mahasiswa' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'mahasiswa', 3306, '', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mahasiswa' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#7 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-11 01:08:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mahasiswa'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:09:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '1234', 'yasim_marelan', 3306, '', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#7 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-11 01:09:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 01:09:37 --> mysqli_sql_exception: Table 'akademik_db.mahasiswa' doesn't exist in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\CI\app\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\CI\app\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 01:09:37 --> Table 'akademik_db.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\mahasiswa.php(19): App\Models\MahasiswaModel->getMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:14:15 --> Undefined array key "nim"
+in APPPATH\Views\index.php on line 36.
+ 1 APPPATH\Views\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:14:30 --> Undefined array key "nim"
+in APPPATH\Views\index.php on line 36.
+ 1 APPPATH\Views\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:17:01 --> Undefined array key "id"
+in APPPATH\Views\index.php on line 42.
+ 1 APPPATH\Views\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:18:34 --> Undefined array key "id"
+in APPPATH\Views\index.php on line 42.
+ 1 APPPATH\Views\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:19:33 --> Undefined array key "id"
+in APPPATH\Views\index.php on line 42.
+ 1 APPPATH\Views\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:19:37 --> Undefined array key "id"
+in APPPATH\Views\index.php on line 42.
+ 1 APPPATH\Views\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:20:55 --> Undefined array key "nim"
+in APPPATH\Views\index.php on line 46.
+ 1 APPPATH\Views\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:21:04 --> Undefined array key "id"
+in APPPATH\Views\index.php on line 49.
+ 1 APPPATH\Views\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:24:50 --> Undefined array key "id"
+in APPPATH\Views\index.php on line 50.
+ 1 APPPATH\Views\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\mahasiswa.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 01:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 01:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 01:25:19 --> Too few arguments to function App\Controllers\Mahasiswa::edit(), 0 passed in D:\xampp\htdocs\CI\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\mahasiswa.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 01:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 02:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:06:23 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Tugas_elearn/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Tugas_elearn/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:06:36 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\/Tugas_elearn/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/Tugas_elearn/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:07:02 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Tugas_elearn/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Tugas_elearn/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:07:30 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:07:56 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan/Tugas_elearn')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/Tugas_elearn')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:08:35 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan/Tugas_elearn')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/Tugas_elearn')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:08:50 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+INFO - 2023-10-11 02:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 02:09:21 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Tugas_elearn/mahasiswa::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Tugas_elearn/mahasiswa::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('latihan/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:10:55 --> Class "App\Controllers\Tugas_elearn\BaseController" not found
+in APPPATH\Controllers\Tugas_elearn\mahasiswa.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\CI\\app\\Controllers\\Tugas_elearn\\mahasiswa.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tugas_elearn\\mahasiswa')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tugas_elearn\\mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Tugas_elearn\\mahasiswa', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:11:30 --> Class "App\Controllers\Tugas_elearn\BaseController" not found
+in APPPATH\Controllers\Tugas_elearn\mahasiswa.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\CI\\app\\Controllers\\Tugas_elearn\\mahasiswa.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tugas_elearn\\mahasiswa')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tugas_elearn\\mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Tugas_elearn\\mahasiswa', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:12:17 --> Class "App\Models\Tugas_elearn\ModelMahasiswa" not found
+in APPPATH\Controllers\Tugas_elearn\mahasiswa.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tugas_elearn\mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 02:13:04 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+#6 D:\xampp\htdocs\CI\system\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+#7 D:\xampp\htdocs\CI\app\Controllers\Tugas_elearn\mahasiswa.php(91): CodeIgniter\BaseModel->paginate(5)
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 02:13:04 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+ 7 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+ 8 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(91): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 02:13:39 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+#6 D:\xampp\htdocs\CI\system\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+#7 D:\xampp\htdocs\CI\app\Controllers\Tugas_elearn\mahasiswa.php(91): CodeIgniter\BaseModel->paginate(5)
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 02:13:39 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+ 7 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+ 8 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(91): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:14:16 --> Invalid file: "mahasiswa_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(93): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 02:14:50 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+#6 D:\xampp\htdocs\CI\system\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+#7 D:\xampp\htdocs\CI\app\Controllers\Tugas_elearn\mahasiswa.php(91): CodeIgniter\BaseModel->paginate(5)
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 02:14:50 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mahasiswa`
+ORDER BY `id` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+ 7 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+ 8 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(91): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:19:25 --> Invalid file: "mahasiswa_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(94): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 02:20:23 --> Undefined array key "alamat"
+in APPPATH\Views\mahasiswa_view.php on line 119.
+ 1 APPPATH\Views\mahasiswa_view.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'D:\\xampp\\htdocs\\CI\\app\\Views\\mahasiswa_view.php', 119)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\mahasiswa_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(94): view('mahasiswa_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 03:01:28 --> Undefined variable $Nim
+in APPPATH\Controllers\Tugas_elearn\mahasiswa.php on line 62.
+ 1 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nim', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\Tugas_elearn\\mahasiswa.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 03:03:32 --> Undefined variable $Nim
+in APPPATH\Controllers\Tugas_elearn\mahasiswa.php on line 61.
+ 1 APPPATH\Controllers\Tugas_elearn\mahasiswa.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nim', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\Tugas_elearn\\mahasiswa.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 04:23:02 --> Class "App\Models\Tugas_elearn\PerkuliahanModel" not found
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 04:23:40 --> Undefined variable $data
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 12.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 04:23:51 --> Undefined variable $dataPerkuliahan
+in APPPATH\Views\perkuliahan_view.php on line 87.
+ 1 APPPATH\Views\perkuliahan_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataPerkuliahan', 'D:\\xampp\\htdocs\\CI\\app\\Views\\perkuliahan_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(12): view('perkuliahan_view')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 04:30:36 --> mysqli_sql_exception: Unknown column 'perkuliahan.Nilai' in 'field list' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_maha...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_maha...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_maha...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_maha...', Array, false)
+#4 D:\xampp\htdocs\CI\app\Controllers\Tugas_elearn\Perkuliahan.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+#6 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#7 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-11 04:30:36 --> Unknown column 'perkuliahan.Nilai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_mahasiswa`.`Nim`, `tb_matakuliah`.`Kode_MK`, `tb_dosen`.`Nip`, `perkuliahan`.`Nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `perkuliahan`.`mahasiswa_id`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `perkuliahan`.`matakuliah_id`
+JOIN `tb_dosen` ON `tb_dosen`.`id` = `perkuliahan`.`dosen_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_mahasiswa`.`Nim`, `tb_matakuliah`.`Kode_MK`, `tb_dosen`.`Nip`, `perkuliahan`.`Nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `perkuliahan`.`mahasiswa_id`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `perkuliahan`.`matakuliah_id`
+JOIN `tb_dosen` ON `tb_dosen`.`id` = `perkuliahan`.`dosen_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_mahasiswa`.`Nim`, `tb_matakuliah`.`Kode_MK`, `tb_dosen`.`Nip`, `perkuliahan`.`Nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `perkuliahan`.`mahasiswa_id`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `perkuliahan`.`matakuliah_id`
+JOIN `tb_dosen` ON `tb_dosen`.`id` = `perkuliahan`.`dosen_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_mahasiswa`.`Nim`, `tb_matakuliah`.`Kode_MK`, `tb_dosen`.`Nip`, `perkuliahan`.`Nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `perkuliahan`.`mahasiswa_id`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `perkuliahan`.`matakuliah_id`
+JOIN `tb_dosen` ON `tb_dosen`.`id` = `perkuliahan`.`dosen_id`', [], false)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+ERROR - 2023-10-11 05:03:04 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+#6 D:\xampp\htdocs\CI\system\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+#7 D:\xampp\htdocs\CI\app\Controllers\Tugas_elearn\Perkuliahan.php(24): CodeIgniter\BaseModel->paginate(5)
+#8 D:\xampp\htdocs\CI\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+#9 D:\xampp\htdocs\CI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#10 D:\xampp\htdocs\CI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\CI\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-11 05:03:04 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_perkuliahan`
+ORDER BY `id` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_perkuliahan`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_perkuliahan`
+ORDER BY `id` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_perkuliahan`
+ORDER BY `id` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+ 7 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(5, 0)
+ 8 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(24): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 05:33:54 --> Undefined variable $v
+in APPPATH\Views\perkuliahan_view.php on line 55.
+ 1 APPPATH\Views\perkuliahan_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $v', 'D:\\xampp\\htdocs\\CI\\app\\Views\\perkuliahan_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(27): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 06:24:51 --> Call to undefined method App\Models\MahasiswaModel::getSource
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Latihan.php(8): CodeIgniter\Model->__call('getSource', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Latihan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-10-11 06:26:05 --> Call to undefined method App\Models\MahasiswaModel::getSource
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Latihan.php(8): CodeIgniter\Model->__call('getSource', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Latihan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')

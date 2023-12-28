@@ -1,0 +1,38 @@
+INFO - 2023-12-20 04:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 04:14:50 --> Undefined variable $content
+in APPPATH\Views\layout\navbar.php on line 166.
+ 1 APPPATH\Views\layout\navbar.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'D:\\xampp\\htdocs\\ecatalog\\app\\Views\\layout\\navbar.php', 166)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ecatalog\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(104): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ecatalog\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Beranda.php(11): view('layout/template')
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Beranda->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 04:17:01 --> Undefined variable $content
+in APPPATH\Views\layout\navbar.php on line 166.
+ 1 APPPATH\Views\layout\navbar.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'D:\\xampp\\htdocs\\ecatalog\\app\\Views\\layout\\navbar.php', 166)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ecatalog\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(104): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ecatalog\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Beranda.php(15): view('layout/template')
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Beranda->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

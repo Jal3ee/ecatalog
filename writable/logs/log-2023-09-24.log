@@ -1,0 +1,70 @@
+CRITICAL - 2023-09-24 14:07:13 --> Array to string conversion
+in APPPATH\Controllers\mahasiswa.php on line 36.
+ 1 APPPATH\Controllers\mahasiswa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\mahasiswa.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\mahasiswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:28:53 --> Array to string conversion
+in APPPATH\Controllers\mahasiswa.php on line 36.
+ 1 APPPATH\Controllers\mahasiswa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\mahasiswa.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\mahasiswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:29:10 --> Array to string conversion
+in APPPATH\Controllers\mahasiswa.php on line 36.
+ 1 APPPATH\Controllers\mahasiswa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\mahasiswa.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\mahasiswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:32:55 --> Array to string conversion
+in APPPATH\Controllers\mahasiswa.php on line 36.
+ 1 APPPATH\Controllers\mahasiswa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\mahasiswa.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\mahasiswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:33:41 --> Array to string conversion
+in APPPATH\Controllers\mahasiswa.php on line 36.
+ 1 APPPATH\Controllers\mahasiswa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\mahasiswa.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\mahasiswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:34:14 --> Array to string conversion
+in APPPATH\Controllers\mahasiswa.php on line 36.
+ 1 APPPATH\Controllers\mahasiswa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\CI\\app\\Controllers\\mahasiswa.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\mahasiswa->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:41:31 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 27.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add', [], true)
+ 4 APPPATH\Controllers\mahasiswa.php(44): view('v_mahasiswa_add', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->save()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')
+CRITICAL - 2023-09-24 14:43:28 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 29.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add', [], true)
+ 4 APPPATH\Controllers\mahasiswa.php(44): view('v_mahasiswa_add', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->save()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\CI\\public\\index.php')

@@ -1,0 +1,118 @@
+ERROR - 2023-10-18 05:53:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'akademik_db', 3306, '', 0)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\xampp\htdocs\UTS\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\xampp\htdocs\UTS\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Dosen.php(80): CodeIgniter\BaseModel->paginate(5)
+#7 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Dosen->index()
+#8 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Dosen))
+#9 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 D:\xampp\htdocs\UTS\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 D:\xampp\htdocs\UTS\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#5 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Dosen.php(80): CodeIgniter\BaseModel->paginate(5)
+#6 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Dosen->index()
+#7 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Dosen))
+#8 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-18 05:53:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_dosen`', [], false)
+ 3 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Tugas_elearn\Dosen.php(80): CodeIgniter\BaseModel->paginate(5)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 06:06:36 --> Undefined variable $mahasiswaOptions
+in APPPATH\Views\perkuliahan_view.php on line 92.
+ 1 APPPATH\Views\perkuliahan_view.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswaOptions', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(27): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 06:08:14 --> Class "App\Controllers\Tugas_elearn\ModelPerkuliahan" not found
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 06:10:14 --> Class "App\Controllers\Tugas_elearn\ModelPerkuliahan" not found
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 06:10:53 --> Undefined variable $modelPerkuliahan
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 11.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPerkuliahan', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tugas_elearn\Perkuliahan->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 06:11:25 --> Undefined variable $modelPerkuliahan
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 11.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPerkuliahan', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tugas_elearn\Perkuliahan->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 06:11:44 --> Undefined variable $model
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 11.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tugas_elearn\Perkuliahan->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 09:03:31 --> Undefined variable $model
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 11.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tugas_elearn\Perkuliahan->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 09:04:37 --> Undefined variable $modelPerkuliahan
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 11.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPerkuliahan', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tugas_elearn\Perkuliahan->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-18 09:05:14 --> Undefined variable $modelPerkuliahan
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 16.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPerkuliahan', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')

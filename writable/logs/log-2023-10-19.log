@@ -1,0 +1,311 @@
+CRITICAL - 2023-10-19 04:44:53 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:45:09 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:48:11 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:50:59 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:51:02 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:51:40 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update($id) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:56:04 --> Declaration of App\Models\Tugas_elearn\ModelPerkuliahan::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php on line 73.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-19 04:56:48 --> Class "App\Controllers\Tugas_elearn\ModelPerkuliahan" not found
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:03:56 --> Undefined variable $katakunci
+in APPPATH\Views\perkuliahan_view.php on line 71.
+ 1 APPPATH\Views\perkuliahan_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $katakunci', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(25): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:05:32 --> Undefined variable $katakunci
+in APPPATH\Views\perkuliahan_view.php on line 71.
+ 1 APPPATH\Views\perkuliahan_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $katakunci', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(28): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:07:53 --> Undefined variable $mahasiswa
+in APPPATH\Views\perkuliahan_view.php on line 101.
+ 1 APPPATH\Views\perkuliahan_view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(79): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:08:11 --> Undefined variable $Nama_Mhs
+in APPPATH\Views\perkuliahan_view.php on line 101.
+ 1 APPPATH\Views\perkuliahan_view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nama_Mhs', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(79): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:08:31 --> Undefined variable $Nama_mhs
+in APPPATH\Views\perkuliahan_view.php on line 101.
+ 1 APPPATH\Views\perkuliahan_view.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nama_mhs', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(79): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:10:14 --> Undefined variable $mahasiswa
+in APPPATH\Views\perkuliahan_view.php on line 102.
+ 1 APPPATH\Views\perkuliahan_view.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(79): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:11:58 --> Attempt to read property "Nim" on array
+in APPPATH\Views\perkuliahan_view.php on line 103.
+ 1 APPPATH\Views\perkuliahan_view.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nim" on array', 'D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php', 103)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\UTS\\app\\Views\\perkuliahan_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('perkuliahan_view', [], true)
+ 5 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(79): view('perkuliahan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+CRITICAL - 2023-10-19 05:26:10 --> Undefined variable $model
+in APPPATH\Controllers\Tugas_elearn\Perkuliahan.php on line 65.
+ 1 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\xampp\\htdocs\\UTS\\app\\Controllers\\Tugas_elearn\\Perkuliahan.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+ERROR - 2023-10-19 05:41:35 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`tb_perkuliahan`, CONSTRAINT `1` FOREIGN KEY (`Nim`) REFERENCES `tb_mahasiswa` (`Nim`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\UTS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\UTS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\UTS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\UTS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Perkuliahan.php(49): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+#10 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#11 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-19 05:41:35 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`tb_perkuliahan`, CONSTRAINT `1` FOREIGN KEY (`Nim`) REFERENCES `tb_mahasiswa` (`Nim`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (:Nilai:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+ERROR - 2023-10-19 05:41:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`tb_perkuliahan`, CONSTRAINT `1` FOREIGN KEY (`Nim`) REFERENCES `tb_mahasiswa` (`Nim`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\UTS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\UTS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\UTS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\UTS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Perkuliahan.php(49): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+#10 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#11 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-19 05:41:42 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`tb_perkuliahan`, CONSTRAINT `1` FOREIGN KEY (`Nim`) REFERENCES `tb_mahasiswa` (`Nim`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (:Nilai:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+ERROR - 2023-10-19 05:43:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`tb_perkuliahan`, CONSTRAINT `1` FOREIGN KEY (`Nim`) REFERENCES `tb_mahasiswa` (`Nim`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\UTS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\UTS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\UTS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\UTS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Perkuliahan.php(49): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+#10 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#11 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-19 05:43:25 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`tb_perkuliahan`, CONSTRAINT `1` FOREIGN KEY (`Nim`) REFERENCES `tb_mahasiswa` (`Nim`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perkuliahan` (`Nilai`) VALUES (:Nilai:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(49): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+ERROR - 2023-10-19 05:50:02 --> mysqli_sql_exception: Column 'Nim' cannot be null in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\UTS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\UTS\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\UTS\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\UTS\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Perkuliahan.php(55): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+#10 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#11 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-10-19 05:50:02 --> Column 'Nim' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_perkuliahan` (`Nim`, `Kode_MK`, `Nip`, `Nilai`) VALUES (NULL, NULL, NULL, \'8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perkuliahan` (`Nim`, `Kode_MK`, `Nip`, `Nilai`) VALUES (NULL, NULL, NULL, \'8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perkuliahan` (`Nim`, `Kode_MK`, `Nip`, `Nilai`) VALUES (NULL, NULL, NULL, \'8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perkuliahan` (`Nim`, `Kode_MK`, `Nip`, `Nilai`) VALUES (:Nim:, :Kode_MK:, :Nip:, :Nilai:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(55): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
+ERROR - 2023-10-19 05:51:04 --> mysqli_sql_exception: Column 'Nim' in where clause is ambiguous in D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\UTS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perk...', 0)
+#1 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perk...')
+#2 D:\xampp\htdocs\UTS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perk...')
+#3 D:\xampp\htdocs\UTS\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perk...', Array, false)
+#4 D:\xampp\htdocs\UTS\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\UTS\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\UTS\app\Models\Tugas_elearn\ModelPerkuliahan.php(51): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\UTS\app\Controllers\Tugas_elearn\Perkuliahan.php(82): App\Models\Tugas_elearn\ModelPerkuliahan->getPerkuliahanWithRelations(Object(App\Models\Tugas_elearn\ModelPerkuliahan))
+#8 D:\xampp\htdocs\UTS\system\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+#9 D:\xampp\htdocs\UTS\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+#10 D:\xampp\htdocs\UTS\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\UTS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\UTS\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-19 05:51:04 --> Column 'Nim' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`
+WHERE `Nim` LIKE \'%31536616%\' ESCAPE \'!\'
+OR  `Kode_MK` LIKE \'%31536616%\' ESCAPE \'!\'
+OR  `Nip` LIKE \'%31536616%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`
+WHERE `Nim` LIKE \'%31536616%\' ESCAPE \'!\'
+OR  `Kode_MK` LIKE \'%31536616%\' ESCAPE \'!\'
+OR  `Nip` LIKE \'%31536616%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`
+WHERE `Nim` LIKE \'%31536616%\' ESCAPE \'!\'
+OR  `Kode_MK` LIKE \'%31536616%\' ESCAPE \'!\'
+OR  `Nip` LIKE \'%31536616%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`
+WHERE `Nim` LIKE :Nim: ESCAPE \'!\'
+OR  `Kode_MK` LIKE :Kode_MK: ESCAPE \'!\'
+OR  `Nip` LIKE :Nip: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Tugas_elearn\ModelPerkuliahan.php(51): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tugas_elearn\Perkuliahan.php(82): App\Models\Tugas_elearn\ModelPerkuliahan->getPerkuliahanWithRelations(Object(App\Models\Tugas_elearn\ModelPerkuliahan))
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tugas_elearn\Perkuliahan->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas_elearn\Perkuliahan))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\UTS\\public\\index.php')
